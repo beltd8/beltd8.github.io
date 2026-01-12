@@ -1,4 +1,4 @@
-# seekbalance
+# beltd8
 
-Seek Balance Webpage
+Belt D8 Webpage
 

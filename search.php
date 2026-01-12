@@ -12,7 +12,7 @@
     content="width=device-width, initial-scale=1.0">
 <meta 
     name="description" 
-    content="Seek Balance Organization">
+    content="Belt D8 Organization">
 <meta 
     name="author" 
     content="Fred Nora">
@@ -106,7 +106,7 @@
     <!-- popup_container module -->
     <div class="popup_container">
     <img class="gramado-logo" src="../assets/img/polard8.png" alt="Logo">
-    <h1>Seek Balance Organization</h1>
+    <h1>Belt D8</h1>
 
     <?php
         $cwd = getcwd();
@@ -131,7 +131,7 @@
         <br/>
         <a 
             class="button" 
-            href="https://github.com/seekbalance/seekbalance.github.io">
+            href="https://github.com/beltd8/beltd8.github.io">
             <img class="iconpos" 
                 width="20" 
                 height="20" 
