@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geometry Notes: Circle & Projection</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Geometry Notes</h1>
+
+    <h2>Unit Circle Relationships</h2>
+    <pre>
+y/r = sin(angle)
+x/r = cos(angle)
+y = r * sin(angle)
+x = r * cos(angle)
+    </pre>
+
+    <h3>Using radius = 1</h3>
+    <pre>
+y/1 = sin(angle)
+x/1 = cos(angle)
+y = 1 * sin(angle)
+x = 1 * cos(angle)
+    </pre>
+
+    <h2>Perspective Projection</h2>
+    <p>We have a point (x, y, z).</p>
+    <p>Projection is related with the correlation:</p>
+    <pre>
+x' = x/z
+y' = y/z
+    </pre>
+
+    <p>Projection from 3D space (x, y, z) onto a 2D plane using what’s called perspective projection.</p>
+    <p>In perspective projection, the farther away the point (larger z), the smaller its projected coordinates.</p>
+
+    <h2>Common Principle</h2>
+    <p>Both the unit circle trigonometry and the 3D-to-2D projection rely on the same geometric principle: ratios of lengths relative to a reference distance.</p>
+    <ul>
+        <li>Circle: normalized by radius r.</li>
+        <li>Projection: normalized by depth z.</li>
+    </ul>
+    <p>This normalization produces dimensionless ratios (sine, cosine, or projected coordinates) that describe geometry in a simplified way.</p>
+
+    <h2>Aspect Ratio</h2>
+    <p>AR = width/height</p>
+    <pre>
+x' = x/(z*AR)
+y' = y/z
+    </pre>
+    <ul>
+        <li>If AR > 1 (wide screen), x' is compressed horizontally.</li>
+        <li>If AR < 1 (tall screen), x' is stretched horizontally.</li>
+    </ul>
+</body>
+</html>
